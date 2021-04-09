@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title> Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+<div class="top_nav">
+    <a class="active" href="#"> Pizzeria</a>
+    <div class="topnav-right">
+        <a href="#viewblock"> View Menu</a>
+        <a href="#addToppings">Add Menu</a>
+    </div>
+    </div>
+    <div class="row" id="viewblock">
+        <div class="img_div">
+            <img class="img_responsive" src="pizza.png">
+        </div>
+    </div>
+ <button id="menu_list" onclick="getmenu()"> Show menu</button>
+<button id="Addtoppings" onclick="addItem()"> Recommend a new Pizza</button>
+<div id="display_menu"></div>
+</div>
+<div class="block2">
+    <div id="display_addedmenu">
+    </div>
+</div>
